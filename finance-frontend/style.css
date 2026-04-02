@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+.container {
+  width: 420px;
+  margin: auto;
+  background: #2c2c3e;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #444;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+button {
+  background: #6c63ff;
+  color: white;
+}
+
+.actions button {
+  width: auto;
+  padding: 5px 8px;
+}
+
+.actions button:first-child {
+  background: #ffa500;
+}
+
+.actions button:last-child {
+  background: #ff4d4d;
+}
+
+/* Records */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3a3a5f;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+/* Summary Cards */
+#income, #expense, #balance {
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+#income {
+  background: #28a745;
+}
+
+#expense {
+  background: #dc3545;
+}
+
+#balance {
+  background: #17a2b8;
+}
+
+/* Chart */
+canvas {
+  background: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}

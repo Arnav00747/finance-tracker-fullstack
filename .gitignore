@@ -1,0 +1,4 @@
+node_modules
+.env
+finance-backend/node_modules
+finance-frontend/node_modules
