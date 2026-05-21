@@ -17,7 +17,8 @@
 - finance-backend/
 - finance-frontend/
 
-## ▶️ Run Locally
+## ▶️ Run 
+https://finance-tracker-fullstack-jet.vercel.app/
 
 ### Backend
 cd finance-backend  
